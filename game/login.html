@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+'    <main class="container">
+        <h2>Bem-vinda, Brunna!</h2>
+        <img src="ela.jpg" alt="Us" width=80 height=80 class="img-log">
+        <form action="">
+            <div class="inputs">
+                <input type="password" id="password"  placeholder="Password">
+                <div class="underline"></div>
+            </div>
+            <input type="submit" onclick="log(); return false">
+            <div class="dica">Dica: data do nosso primeiro encontro (ddmmaa).</div>
+        </form>
+    </main>'
+
+    <script>
+        function log(){
+            var senha = document.getElementById('password').value;
+
+            if(senha == "191224"){
+                alert('Parabéns amor!');
+                location.href = "home.html";
+            }else{
+                alert('Pensa mais ou pouco!');
+            }
+        }
+    </script>
+
+</body>
+</html>

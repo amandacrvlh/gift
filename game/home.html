@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enigma</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="general-style.css">
+  <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="home.html" class="grid-4">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="/nadaAqui.html">?????</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-int int-home">
+    <div class="conteiner">
+      <h1>Que porra é essa, Amanda?!</h1>
+    </div>
+  </section>
+
+  <section class="home container">
+    <div class="grid-16">
+      <h2>Breve Explicação</h2>
+      <p>
+        Tenho algumas brincadeiras para fazer com a senhorita, então sente-se e divirta-se. Se tudo sair como o esperado, você vai conseguir cumprir todos os desafios.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-4 footer-contato">
+          <h3>Desvende</h3>
+          <ul>
+            <li>
+              01000001 00100000 01100011 01101000 01100001 01110110 01100101 00100000 11101001 00100000 01100100 01100101 01100011 01101111 01100100 01101001 01100110 01101001 01100011 01100001 01100100 01101111 01110010 01100001 00100000 11101001 00100000 01000010 01110010 01110101 01101110 01101110 01100001  
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer-redes">
+          <h3>Aplique aqui</h3>
+          <ul>
+            <li>kDgix9gUrh1tMtAYAh50VA</li>
+            <li class="decod"><a href="https://www.invertexto.com/texto-criptografado">Clique aqui!</a></li>
+            <li> 
+              <form action="">
+                <div class="inputs">
+                    <input type="password" id="password"  placeholder="Password">
+                    <div class="underline"></div>
+                </div>
+                <input type="submit" onclick="log(); return false">
+            </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="direitos">
+      <div class="container">
+        <p class="grid-16">Eu te amo.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function log(){
+        var senha = document.getElementById('password').value;
+
+        if(senha == "eusouumagostosa"){
+            alert('Parabéns amor!');
+            location.href = "jogo.html";
+        }else{
+            alert('Pensa mais ou pouco!');
+        }
+    }
+  </script>
+
+</body>
+
+</html>
