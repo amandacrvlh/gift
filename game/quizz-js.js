@@ -78,10 +78,10 @@ let app = {
         this.Atualpos++;
         if(this.Atualpos == perguntas.length){
             if(this.Totalpontos == 5){
-                location.href = "/duwdwm/duwdwm.html";
+                location.href = "duwdwm.html";
             }else{
                 alert(`Tente novamente! Você errou um total de: ${this.Erros}`);
-                location.href = "/quizz/quizz.html";
+                location.href = "quizz.html";
             }
         }
     },
